@@ -1,0 +1,57 @@
+Initialize engine version: 2017.3.1f1 (fc1d3344e6ea)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:   NVIDIA
+    VRAM:     7948 MB
+    Driver:   32.0.15.5597
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.031 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Setting up 16 worker threads for Enlighten.
+  Thread -> id: 5768 -> priority: 1 
+  Thread -> id: 55c0 -> priority: 1 
+  Thread -> id: 5968 -> priority: 1 
+  Thread -> id: 2c68 -> priority: 1 
+  Thread -> id: 5148 -> priority: 1 
+  Thread -> id: 5378 -> priority: 1 
+  Thread -> id: 5bc4 -> priority: 1 
+  Thread -> id: 2eec -> priority: 1 
+  Thread -> id: 56b4 -> priority: 1 
+  Thread -> id: 3cb8 -> priority: 1 
+  Thread -> id: 5aec -> priority: 1 
+  Thread -> id: 2284 -> priority: 1 
+  Thread -> id: 356c -> priority: 1 
+  Thread -> id: 5848 -> priority: 1 
+  Thread -> id: 598c -> priority: 1 
+  Thread -> id: 5960 -> priority: 1 
+UnloadTime: 1.486200 ms
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libcoreclr.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libdl.so
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib.dll
+Fallback handler could not load library C:/Users/MyBirer/Desktop/drl/Reacher_Windows_x86_64/Reacher_Data/Mono/libSystem.dylib
+UnityAgentsException: The Communicator was unable to connect. Please make sure the External process is ready to accept communication with Unity.
+  at MLAgents.Batcher.SendAcademyParameters (MLAgents.CommunicatorObjects.UnityRLInitializationOutput academyParameters) [0x00032] in <649b1217fc0b4cac87ff14465a04c2d9>:0 
+  at MLAgents.Academy.InitializeEnvironment () [0x001d9] in <649b1217fc0b4cac87ff14465a04c2d9>:0 
+  at MLAgents.Academy.Awake () [0x00000] in <649b1217fc0b4cac87ff14465a04c2d9>:0 
+ 
+(Filename: <649b1217fc0b4cac87ff14465a04c2d9> Line: 0)
+
